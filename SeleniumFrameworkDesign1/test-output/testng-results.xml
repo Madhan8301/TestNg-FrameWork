@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-10T17:44:35 IST" name="Suite" finished-at="2023-03-10T17:45:35 IST" duration-ms="59638">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorTest()[pri:0, instance:kgisl.Tests.ErrorValidationsTest@460ebd80]" name="LoginErrorTest" class="kgisl.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="MainTest.mainTest(java.util.HashMap)[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" name="mainTest" class="kgisl.Tests.MainTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-03-10T17:44:35 IST" name="ErrorTest" finished-at="2023-03-10T17:45:15 IST" duration-ms="39820">
+      <class name="kgisl.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:kgisl.Tests.ErrorValidationsTest@460ebd80]" started-at="2023-03-10T17:44:35 IST" name="launchApplication" finished-at="2023-03-10T17:44:50 IST" duration-ms="15080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorTest()[pri:0, instance:kgisl.Tests.ErrorValidationsTest@460ebd80]" started-at="2023-03-10T17:44:50 IST" name="LoginErrorTest" finished-at="2023-03-10T17:44:51 IST" duration-ms="945" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<......> but was:<...or ...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<......> but was:<...or ...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at kgisl.Tests.ErrorValidationsTest.LoginErrorTest(ErrorValidationsTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kgisl.Tests.ErrorValidationsTest@460ebd80]" started-at="2023-03-10T17:44:52 IST" name="closeBrowser" finished-at="2023-03-10T17:44:56 IST" duration-ms="4589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:kgisl.Tests.ErrorValidationsTest@460ebd80]" started-at="2023-03-10T17:44:56 IST" name="launchApplication" finished-at="2023-03-10T17:45:08 IST" duration-ms="11555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorTest()[pri:0, instance:kgisl.Tests.ErrorValidationsTest@460ebd80]" started-at="2023-03-10T17:45:08 IST" name="ProductErrorTest" finished-at="2023-03-10T17:45:10 IST" duration-ms="2411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kgisl.Tests.ErrorValidationsTest@460ebd80]" started-at="2023-03-10T17:45:10 IST" name="closeBrowser" finished-at="2023-03-10T17:45:15 IST" duration-ms="4994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- kgisl.Tests.ErrorValidationsTest -->
+    </test> <!-- ErrorTest -->
+    <test started-at="2023-03-10T17:44:35 IST" name="MainTest" finished-at="2023-03-10T17:45:35 IST" duration-ms="59638">
+      <class name="kgisl.Tests.MainTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:44:36 IST" name="launchApplication" finished-at="2023-03-10T17:44:50 IST" duration-ms="14934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="mainTest(java.util.HashMap)[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:44:50 IST" name="mainTest" data-provider="getData" finished-at="2023-03-10T17:44:55 IST" duration-ms="4805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Madhan@6765, email=madhan@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:44:55 IST" name="closeBrowser" finished-at="2023-03-10T17:44:57 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:44:57 IST" name="launchApplication" finished-at="2023-03-10T17:45:09 IST" duration-ms="11979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="mainTest(java.util.HashMap)[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:09 IST" name="mainTest" data-provider="getData" finished-at="2023-03-10T17:45:12 IST" duration-ms="3731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Madhan@6765, email=madhan8301@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:12 IST" name="closeBrowser" finished-at="2023-03-10T17:45:14 IST" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:14 IST" name="launchApplication" finished-at="2023-03-10T17:45:24 IST" duration-ms="9598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderhistoryTest(java.util.HashMap)[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:24 IST" name="orderhistoryTest" data-provider="getData" finished-at="2023-03-10T17:45:25 IST" depends-on-methods="kgisl.Tests.MainTest.mainTest" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Madhan@6765, email=madhan@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:25 IST" name="closeBrowser" finished-at="2023-03-10T17:45:26 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:26 IST" name="launchApplication" finished-at="2023-03-10T17:45:33 IST" duration-ms="6587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderhistoryTest(java.util.HashMap)[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:33 IST" name="orderhistoryTest" data-provider="getData" finished-at="2023-03-10T17:45:34 IST" depends-on-methods="kgisl.Tests.MainTest.mainTest" duration-ms="905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Madhan@6765, email=madhan8301@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kgisl.Tests.MainTest@524f3b3a]" started-at="2023-03-10T17:45:34 IST" name="closeBrowser" finished-at="2023-03-10T17:45:35 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- kgisl.Tests.MainTest -->
+    </test> <!-- MainTest -->
+  </suite> <!-- Suite -->
+</testng-results>
